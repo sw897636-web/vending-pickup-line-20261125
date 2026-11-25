@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // First person, machine voice; B7, chips, exact change, coils — the
 // machine's own world; the joke lands on the last few words.
 const LINE =
-  "Press B7 and I'll drop my finest chips, keep the change, and throw in my number — which is just this machine, stuck on you like the crisps in my coils.";
+  "I'm not like other vending machines — when I fall for you, I actually drop. No shaking required.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");
